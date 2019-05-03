@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Internship Sign Up Form</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Montserrat:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <h1>INTERNSHIP SIGNUP FORM</h1>
+      <div id="line"></div>
+
+      <form>
+        <p>Prepare for your career with a Project Management, Web Development, Graphic design, or Digital Marketing Internship at Northern.</p>
+        <small>Please enter a valid email address</small>
+        <div id="inputs">
+          <input
+            type="text"
+            id="email"
+            placeholder="Your Email Address *"/>
+          <select
+            id="interests">
+            <option value="" disabled selected hidden>Your Interests</option>
+            <option value="Front-End Development">Front-End Development</option>
+            <option value="Back-End Development">Back-End Development</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="UI/UX Design">UI/UX Design</option>
+          </select>
+        </div>
+
+        <div id="buttons">
+          <input type="submit" id="submitButton" value="Sign Up Now &#8250;" />
+        </div>
+      </form>
+
+      <div id="thankYouMessage">
+        <h3>Thanks for your interest!</h3>
+        <p>We will review your application and contact you for additional information should your background and experience meet the requirements of one of our openings.</p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
